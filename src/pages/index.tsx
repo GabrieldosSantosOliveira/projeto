@@ -22,7 +22,7 @@ export default function Home() {
   const { register, handleSubmit } = useForm<IForm>();
   const [showPassword, setShowPassword] = useState<boolean>(false);
   return (
-    <div className=" bg-gray-900 flex h-screen justify-between items-start">
+    <div className="bg-gray-900 flex min-h-screen justify-between items-start">
       <Head>
         <title>Camp In</title>
       </Head>
