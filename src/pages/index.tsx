@@ -26,7 +26,7 @@ export default function Home() {
       <Head>
         <title>Camp In</title>
       </Head>
-      <div className="flex flex-1 p-5 flex-col h-full">
+      <div className="flex flex-1 p-5 flex-col  min-h-screen ">
         <header className="flex justify-start ">
           <Image
             src="/images/Logo.svg"
@@ -36,7 +36,7 @@ export default function Home() {
             priority
           />
         </header>
-        <main className="flex flex-1 h-full w-full  ">
+        <main className="flex flex-1  ">
           <form
             onSubmit={handleSubmit((e) => {
               alert(JSON.stringify(e));
