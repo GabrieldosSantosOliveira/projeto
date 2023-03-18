@@ -4,6 +4,9 @@
  ## <p align="center"> Campa In <a href="LICENSE"> <img  src="https://img.shields.io/static/v1?label=License&message=MIT&color=&labelColor=202024" alt="License"></a> </p>
  O Campa In é um formulario responsivo utilizando um design system e o design pattern de composição para a criação de input
  
+## Documentação Storybook
+- Foi utilizado o storyboook para documentar os componentes da aplicação, para colocar no ar foi utilizado o github actions
+- Acesse: [Docs](https://gabrieldossantosoliveira.github.io/projeto/)
 ## 🔖 Demonstração
 
 ### 💻 - Desktop
