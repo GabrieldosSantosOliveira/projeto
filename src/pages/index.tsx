@@ -122,7 +122,7 @@ export default function Home() {
           </form>
         </main>
       </div>
-      <div className="hidden  lg:flex flex-1 h-full items-center justify-center">
+      <div className="hidden  lg:flex flex-1 min-h-screen items-center justify-center">
         <Image
           src="/images/side-image.jpg"
           width={500}
