@@ -8,14 +8,14 @@ import {
 } from 'react';
 import { IconBaseProps } from 'react-icons';
 import { BsCheck } from 'react-icons/bs';
-type Props = InputHTMLAttributes<HTMLInputElement> & {
+export type CheckBoxProps = InputHTMLAttributes<HTMLInputElement> & {
   icon?: IconBaseProps;
   container?: HTMLAttributes<HTMLDivElement>;
 };
-export const CheckBoxBase: ForwardRefRenderFunction<HTMLInputElement, Props> = (
-  { container, icon, ...props },
-  ref,
-) => {
+export const CheckBoxBase: ForwardRefRenderFunction<
+  HTMLInputElement,
+  CheckBoxProps
+> = ({ container, icon, ...props }, ref) => {
   return (
     <div
       {...container}
