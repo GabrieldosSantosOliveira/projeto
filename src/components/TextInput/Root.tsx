@@ -1,9 +1,13 @@
 import { clsx } from 'clsx';
 import { FC, HTMLAttributes, ReactNode } from 'react';
-type Props = HTMLAttributes<HTMLDivElement> & {
+export type TextInputRootProps = HTMLAttributes<HTMLDivElement> & {
   children: ReactNode;
 };
-export const TextInputRoot: FC<Props> = ({ children, className, ...props }) => {
+export const TextInputRoot: FC<TextInputRootProps> = ({
+  children,
+  className,
+  ...props
+}) => {
   return (
     <div
       className={clsx(
