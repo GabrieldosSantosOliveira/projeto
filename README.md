@@ -1,34 +1,52 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<p align="center">
+<img src="https://user-images.githubusercontent.com/86084272/226110533-4fec856d-8b01-4b6e-a095-4c9fe7aa30e4.png"/> </p>
 
-## Getting Started
+ ## <p align="center"> Campa In <a href="LICENSE"> <img  src="https://img.shields.io/static/v1?label=License&message=MIT&color=&labelColor=202024" alt="License"></a> </p>
+ O Campa In é um formulario responsivo utilizando um design system e o design pattern de composição para a criação de input
+ 
+## 🔖 Demonstração
 
-First, run the development server:
+### 💻 - Desktop
+https://user-images.githubusercontent.com/86084272/226110805-876cf20b-118c-40c9-a6d9-a6a26cb24881.mp4
 
+### 📱 - SmartPhone
+<img width="300px" src="https://user-images.githubusercontent.com/86084272/226111005-c42bfc69-04d0-4b1e-8d03-ab6442e8da94.png"/>
+
+## 🛠️ Tecnologias
+- [TypeScript](https://www.typescriptlang.org/) 
+- [Git](https://git-scm.com/)
+- [React.js](https://react.dev/) 
+- [Next.js](https://nextjs.org/)
+- [Eslint](https://eslint.org/)
+- [Prettier](https://prettier.io/)
+- [StoryBook](https://storybook.js.org/)
+- [Radix](https://www.radix-ui.com/)
+- [Tailwind](https://tailwindcss.com/)
+
+
+## ✔️ Pré Requisitos
+- [Yarn](https://classic.yarnpkg.com/lang/en/docs/install)
+- [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+- [Node.js](https://nodejs.org/en/)
+
+## 🚀 Como executar
+
+Clone o repositório
 ```bash
-npm run dev
-# or
-yarn dev
+git clone https://github.com/GabrieldosSantosOliveira/projeto.git
 ```
+Instale as dependências
+```bash
+yarn 
+```
+Execute
+```bash
+yarn dev 
+```
+## 📝 License
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Autor
+| [<img src="https://avatars.githubusercontent.com/u/86084272?v=4" width=115><br><sub>Gabriel Oliveira</sub>](https://www.linkedin.com/in/gabriel-dos-santos-oliveira-24b67b243/)
+| :---: | 
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
