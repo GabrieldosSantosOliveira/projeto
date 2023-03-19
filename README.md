@@ -10,7 +10,10 @@
 ## 🔖 Demonstração
 
 ### 💻 - Desktop
-https://user-images.githubusercontent.com/86084272/226110805-876cf20b-118c-40c9-a6d9-a6a26cb24881.mp4
+
+
+https://user-images.githubusercontent.com/86084272/226188001-7b809668-6715-483c-b2bd-1b9eb8b11256.mp4
+
 
 ### 📱 - SmartPhone
 <img width="300px" src="https://user-images.githubusercontent.com/86084272/226111005-c42bfc69-04d0-4b1e-8d03-ab6442e8da94.png"/>
